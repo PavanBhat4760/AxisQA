@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="pas" value="12345"/>
+  <parameter name="eml" value="pgb4760@gmail.com"/>
+  <parameter name="url" value="http://tutorialsninja.com/demo/"/>
+  <test parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="TestNG1.AxisQA.Parameter">
+        <methods>
+          <include name="quit"/>
+          <include name="MainClass" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNG1.AxisQA.Parameter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
